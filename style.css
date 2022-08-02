@@ -1,0 +1,99 @@
+html, body{ background-color:#b9d6ee; }	
+
+#item1 {
+	background-image: url(images/3.png);
+	background-size:cover;
+}
+#item2 {
+	background-image: url(images/1.png);
+	background-size:cover;
+
+}
+#item3 {
+	background-image: url(images/2.jpg);
+	background-size:cover;
+	
+
+}
+#item4 {
+	background-image: url(images/4.png);
+	background-size:cover;
+
+}
+#item5 {
+	background-image: url(images/5.png);
+	background-size:cover;
+
+}
+#item6 {
+	background-image: url(images/6.png);
+	background-size:cover;
+
+}
+
+/* hardware accelatator class */	
+	.trans3d
+	{
+		-webkit-transform-style: preserve-3d;
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform-style: preserve-3d;
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform-style:preserve-3d;
+		-ms-transform: translate3d(0, 0, 0);
+		transform-style:preserve-3d;
+		transform: translate3d(0, 0, 0);
+
+		/*-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-ms-backface-visibility:hidden;
+		backface-visibility:hidden;*/
+	}
+	
+	#contentContainer
+	{
+		position:absolute;
+		margin-left:-500px;
+		margin-top:-500px;
+		left:50%;
+		top:50%;
+		width:1000px;
+		height:1000px;
+	}
+	
+	#carouselContainer
+	{
+		position:absolute;
+		margin-left:-500px;
+		margin-top:-500px;
+		left:50%;
+		top:50%;
+		width:1000px;
+		height:1000px;
+	}
+	
+	.carouselItem
+	{
+		width:450px;
+		height:400px;
+		position:absolute;
+		background-repeat: no-repeat;
+		left:50%;
+		top:50%;
+		margin-left:-160px;
+		margin-top:-90px;
+		visibility:hidden;
+	}
+	
+	/*.carouselItemInner
+	{
+		width:320px;
+		height:130px;
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-160px;
+		margin-top:-90px;
+		text-align:center;
+		padding-top:50px;
+		
+	}*/
